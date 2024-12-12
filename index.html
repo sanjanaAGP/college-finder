@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>College Finder</h1>
+    <p>Find the best colleges based on your preferences.</p>
+  </header>
+
+  <!-- Search Section -->
+  <section id="search">
+    <form id="search-form">
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Enter city or state">
+      
+      <label for="course">Course:</label>
+      <input type="text" id="course" name="course" placeholder="Enter the course">
+      
+      <label for="fees">Max Fees:</label>
+      <input type="number" id="fees" name="fees" placeholder="Enter max fees">
+
+      <button type="submit">Search Colleges</button>
+    </form>
+  </section>
+
+  <!-- Results Section -->
+  <section id="results">
+    <h2>Colleges Found</h2>
+    <div id="college-list">
+      <!-- Colleges will be displayed here -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
